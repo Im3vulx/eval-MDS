@@ -103,5 +103,4 @@ Authors :
 
 School project fo MyDigitalSchool - Caen - FRANCE
 =======
-# Evaluation Git Github
->>>>>>> 8e5f7430f8740b3d293a90ab5c3d10348b3108dd
+
