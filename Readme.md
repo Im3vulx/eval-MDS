@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Introduction
 
 Repository of Loic and Benjamin students at MyDigitalSchool. This repository gathers the assets and commits of this project. Based on an XD model, this project will be evaluated by Paul Collas.
