@@ -1,0 +1,160 @@
+/* section social */
+
+section#social{
+    margin-left: 20px;
+    position:fixed;
+    z-index: 99999;
+    display:flex;
+    flex-direction: column;
+    width: 35px;
+    top:35%;
+}
+
+section#social img{
+    margin-top: 20px;
+}
+
+/* section three */
+
+section#three {
+    display: flex;
+}
+
+section#three .gauche{
+    margin-left: 70px;
+    padding: 20px;
+    width: 30%;
+}
+
+section#three .gauche h1{
+    font-size: 30px;
+}
+
+section#three button{
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #28b7c5;
+    background: white;
+}
+
+section#three #DD{
+    width: 70%;
+    margin-left:150px;
+}
+
+section#three #DD img {
+    width:80%;
+}
+
+/* section four */
+
+section#four {
+    display: flex;
+}
+
+section#four .droite{
+    padding: 20px;
+    width: 30%;
+    display:flex;
+    flex-direction: column;
+    margin-right:50px;
+    align-items: flex-end;
+}
+
+section#four .GG{
+    width: 70%;
+}
+
+section#four .GG img {
+    width:80%;
+}
+
+section#four .droite h1{
+    font-size: 30px;
+}
+
+section#four h2{
+    margin-top:50px;
+}
+
+section#four h3{
+    margin-top:50px;
+}
+
+section#four button{
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #28b7c5;
+    background: white;
+}
+
+section#four #ez{
+    margin-top: 10px;
+}
+  
+section#four .line {
+    line-height: 8px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+section#four p, h3{
+    text-align: end;
+}
+
+@media screen AND (max-width: 768px){
+
+    /* section social */
+
+    section#social {
+        position: inherit;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        width: auto;
+        margin-left: 0;
+    }
+
+    /* section three */
+    section#three {
+        flex-direction: column;
+    }
+    section#three .gauche {
+        margin-left: 0;
+        padding: 10px;
+        width: auto;
+    }
+    p {
+        display: block;
+        text-align: start;
+    }
+    section#three #DD {
+        width: auto;
+        margin-left: 20px;
+    }
+
+    /* section four */
+
+    section#four {
+        flex-direction: column-reverse;
+    }
+    section#four .droite {
+        padding: 10px;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        margin-right: 0;
+        align-items: flex-start;
+    }
+    section#four p, h3 {
+        text-align: start;
+    }
+    section#four .line {
+        align-items: flex-start;
+    }
+    section#four .GG {
+        width: auto;
+    }
+}
