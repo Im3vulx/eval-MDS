@@ -1,0 +1,83 @@
+/* section competences */
+
+#competences .competences{
+	display: flex;
+	justify-content: space-around;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+#competences .competences .idee-projet{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+#competences .competences .reflexion{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+#competences .competences .deploiement{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#competences .competences h3,p{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	color: #453b3a;
+	font-family: sans-serif;
+}
+
+#competences .competences p{
+	font-size: 16px;
+}
+
+
+#competences .competences img {
+	min-width: 25%;
+	width: 30%;
+}
+
+#competences .btncompt{
+	display:flex;
+	justify-content: center;
+}
+
+#competences .btncompt button{
+	font-family: sans-serif;
+	margin: 20px 0;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border: 2px solid #28b7c5;
+	background: white;
+	cursor: pointer;
+}
+
+#competences .btncompt button:hover{
+	color: black;
+	border: 2px solid #28b7c5;
+	background: #28b7c5;
+}
+
+@media screen AND (max-width: 768px){
+    /* competence */
+
+    #competences .competences{
+        flex-wrap: wrap;
+    }
+}
