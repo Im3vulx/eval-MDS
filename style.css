@@ -1,0 +1,114 @@
+/* section second */
+
+section#second {
+    display: flex;
+}
+
+section#second .droite{
+    padding: 20px;
+    width: 30%;
+    display:flex;
+    flex-direction: column;
+    margin-right:50px;
+    align-items: flex-end;
+}
+
+section#second .GG{
+    width: 70%;
+}
+
+section#second .GG img {
+    width:80%;
+}
+
+section#second .droite h1{
+    font-size: 30px;
+}
+
+section#second h2{
+    margin-top:50px;
+}
+
+section#second h3{
+    margin-top:50px;
+}
+
+section#second button{
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #28b7c5;
+    background: white;
+}
+
+section#second #ez{
+    margin-top: 10px;
+}
+  
+section#second .line {
+    line-height: 8px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+section#second p, h3{
+    text-align: end;
+}
+
+.square {
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background: #28B7C5;
+    margin: 15px 0;
+}
+.line-1 {
+    width: 15px;
+    height: 15px;
+    background: #28B7C5;
+    display: inline-block;
+}  
+.line-2 {
+    width: 80px;
+    height: 1px;
+    background: #28B7C5;
+    display: inline-block;
+}  
+.line-3 {
+    width: 60px;
+    height: 1px;
+    background: #28B7C5;
+    display: inline-block;
+}  
+.line {
+    line-height: 8px;
+}
+
+@media screen AND (max-width: 768px){
+    /* section second */
+
+    section#second{
+        flex-direction: column-reverse
+    }
+    section#second .droite {
+        padding: 20px;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        margin-right: 0;
+        align-items:flex-start;
+    }
+    section#second .line {
+        align-items: flex-start;
+    }
+    section#second p, h3 {
+        text-align: start;
+    }
+    section#second .GG{
+        width:100%;
+    }
+    section#second .GG img {
+        width: 100%;
+    }
+}
